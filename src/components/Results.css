@@ -1,0 +1,10 @@
+.results {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 32px;
+    text-align: center;
+}
+
+.results h2 {
+    font-size: 1.5rem;
+    color: #CAC9FF;
+}

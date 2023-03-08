@@ -5,10 +5,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: #ECF2FF;
+}
+
 main {
     display: flex;
-    border: 1px solid red;
     max-width: 46rem;
+    background: #fff;
+    border-radius: 32px;
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
 }
 
 #root {
@@ -16,4 +22,9 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+section {
+    flex: 1;
+    padding-block: 2.375rem;
 }

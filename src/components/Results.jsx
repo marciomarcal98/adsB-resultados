@@ -1,6 +1,8 @@
+import './Results.css'
+
 export function Results() {
     return (
-        <section>
+        <section className="results">
             <h2>Your Result</h2>
 
             <div>

@@ -2,9 +2,55 @@
     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
     border-radius: 32px;
     text-align: center;
+    padding: 2.375rem 3.375rem;
 }
 
 .results h2 {
     font-size: 1.5rem;
+    color: #CAC9FF;
+    line-height: 2.25rem;
+    margin-bottom: 1.875rem;
+}
+
+.results div:nth-of-type(1) {
+    width: 12.5rem;
+    height: 12.5rem;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+
+    margin-inline: auto;
+    margin-bottom: 2.25rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+
+    border-radius: 50%;
+}
+
+.results div:nth-of-type(1) strong {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    color: #fff;
+}
+
+.results div span {
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #CAC9FF;
+    opacity: 0.5;
+}
+
+.results div:nth-of-type(2) strong {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 3rem;
+
+    margin-bottom: 0.5rem;
+}
+
+.results div p {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
     color: #CAC9FF;
 }
